@@ -44,6 +44,7 @@ PRIMEROS AUXILIOS
 </ol>
 
 PRIMEROS AUXILIOS: DEFINICIÓN, OBJETIVOS Y CONSEJOS GENERALES
+
 Podemos definir los primeros auxilios como el conjunto de actuaciones y técnicas que permiten la atención inmediata de una persona accidentada, hasta que llega la asistencia médica profesional, a fin de que las lesiones que ha sufrido no empeoren. De esta actuación dependerá la evolución de la persona accidentada.
 
 Los objetivos son:
