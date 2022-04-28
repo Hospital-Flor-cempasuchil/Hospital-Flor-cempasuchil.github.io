@@ -20,27 +20,28 @@ Organizar las relaciones necesarias con servicios externos.
  
 PRIMEROS AUXILIOS
 
-1.-Primeros auxilios: Definición, objetivos y consejos generales
-2.-Fase de actuación: PAS
-3.-Valoración del accidentado
-4.-Soporte Vital Básico (SVB) y Reanimación Cardiopulmonar Básica (RCP Básica)
-5.-Protocolo de actuación ante una parada cardiorrespiratoria
-6.-Posición lateral de seguridad
-7.-Protocolo de actuación ante una obstrucción de la vía aérea
-8.-Heridas
-9.-Hemorragias
-10.-Amputaciones traumáticas
-11.-Cuerpos extraños
-12.-Picaduras y mordeduras
-13.-Quemaduras
-14.-Insolaciones
-15.-Lipotimia
-16.-Convulsiones
-17.-Contusiones, esguinces y luxaciones
-18.-Fracturas
-19.-Fracturas de consideración importante
-20.-Actuación ante intoxicaciones
- 
+<ol>
+ <li>Primeros auxilios: Definición, objetivos y consejos generales</li>
+ <li>Fase de actuación: PAS</li>
+ <li>Valoración del accidentado</li>
+ <li>Soporte Vital Básico (SVB) y Reanimación Cardiopulmonar Básica (RCP Básica)</li>
+ <li>Protocolo de actuación ante una parada cardiorrespiratoria</li>
+ <li>Posición lateral de seguridad</li>
+ <li>Protocolo de actuación ante una obstrucción de la vía aérea</li>
+ <li>Heridas</li>
+ <li>Hemorragias</li>
+ <li>Amputaciones traumáticas</li>
+ <li>Cuerpos extraños</li>
+ <li>Picaduras y mordeduras</li>
+ <li>13.-Quemaduras</li>
+ <li>14.-Insolaciones</li>
+ <li>15.-Lipotimia</li>
+ <li>16.-Convulsiones</li>
+ <li>17.-Contusiones, esguinces y luxaciones</li>
+ <li>18.-Fracturas</li>
+ <li>19.-Fracturas de consideración importante</li>
+    <li>20.-Actuación ante intoxicaciones</li>
+</ol>
 
 PRIMEROS AUXILIOS: DEFINICIÓN, OBJETIVOS Y CONSEJOS GENERALES
 Podemos definir los primeros auxilios como el conjunto de actuaciones y técnicas que permiten la atención inmediata de una persona accidentada, hasta que llega la asistencia médica profesional, a fin de que las lesiones que ha sufrido no empeoren. De esta actuación dependerá la evolución de la persona accidentada.
