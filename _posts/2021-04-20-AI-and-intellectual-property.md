@@ -53,7 +53,7 @@ Los objetivos son:
  <li>Evitar nuevas lesiones o complicaciones.</li>
  <li>Poner al accidentado lo antes posible en manos de servicios médicos.</li>
  <li>Aliviar el dolor.</li>
-   <li>Evitar infecciones o lesiones secundarias.</li>
+    <li>Evitar infecciones o lesiones secundarias.</li>
 </ol>
 
 Siempre que se presten primeros auxilios hay que seguir unos consejos generales:
@@ -68,7 +68,7 @@ Siempre que se presten primeros auxilios hay que seguir unos consejos generales:
  <li>Tranquilizar al herido.</li>
  <li>Mantener al herido caliente.</li>
  <li>Hacer solo lo imprescindible.</li>
- <li>Si no se sabe, abstenerse.</li>
+    <li>Si no se sabe, abstenerse.</li>
  </ol>
 
 ¡ATENCIÓN!. El Socorrista también debe protegerse (guantes, protectores en el boca a boca…).
