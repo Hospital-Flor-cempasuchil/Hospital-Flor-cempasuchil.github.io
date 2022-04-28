@@ -8,36 +8,58 @@ category: opinion
 author: Rodrigo Davila
 description: "As neural networks are used more and more in the creative process, text, images and even music are now created by AI, but who owns the copyright for those works?"
 ---
-Recently I was [reading an article](https://www.rollingstone.com/music/music-features/nirvana-kurt-cobain-ai-song-1146444/) about a cool project that intends to have a neural network create songs of the late club of the 27 (artists that have tragically died at age 27 or near, and in the height of their respective careers), artists such as Amy Winehouse, Jimmy Hendrix, Curt Cobain and Jim Morrison.
+GUÍA DE PRIMEROS AUXILIOS
+Es importante que en todos los centros de trabajo se designe uno o más trabajadores para formarlos en primeros auxilios y que conozcan una serie de pautas o maniobras sobre qué hacer o qué no hacer ante situaciones de emergencia y hasta la llegada de personal sanitario especializado que pueda hacerse cargo de un accidentado o enfermo repentino.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/tjzOzuKQhSM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Asimismo, el artículo 20 de la Ley 31/1995, de 8 de noviembre, de Prevención de Riesgos Laborales indica la obligación de analizar las posibles situaciones de emergencia y de tomar las medidas necesarias en materia de primeros auxilios. En concreto obliga a:
 
-The project was created by [Over the Bridge](https://overthebridge.org), an organization dedicated to increase awareness on mental health and substance abuse in the music industry, trying to denormalize and remove the glamour around such illnesses within the music community.
+Designación del personal en primeros auxilios.
+Formación del personal designado.
+Organizar las relaciones necesarias con servicios externos.
+ 
+PRIMEROS AUXILIOS
+Primeros auxilios: Definición, objetivos y consejos generales
+Fase de actuación: PAS
+Valoración del accidentado
+Soporte Vital Básico (SVB) y Reanimación Cardiopulmonar Básica (RCP Básica)
+Protocolo de actuación ante una parada cardiorrespiratoria
+Posición lateral de seguridad
+Protocolo de actuación ante una obstrucción de la vía aérea
+Heridas
+Hemorragias
+Amputaciones traumáticas
+Cuerpos extraños
+Picaduras y mordeduras
+Quemaduras
+Insolaciones
+Lipotimia
+Convulsiones
+Contusiones, esguinces y luxaciones
+Fracturas
+Fracturas de consideración importante
+Actuación ante intoxicaciones
+ 
 
-They are using Google's [Magenta](https://magenta.tensorflow.org), which is a neural network that precisely was conceived to explore the role of machine learning within the creative process. Magenta has been used to create a brand new "Beatles" song or even there was a band that [used it to write a full album](https://arstechnica.com/gaming/2019/08/yachts-chain-tripping-is-a-new-landmark-for-ai-music-an-album-that-doesnt-suck/) in 2019.
+PRIMEROS AUXILIOS: DEFINICIÓN, OBJETIVOS Y CONSEJOS GENERALES
+Podemos definir los primeros auxilios como el conjunto de actuaciones y técnicas que permiten la atención inmediata de una persona accidentada, hasta que llega la asistencia médica profesional, a fin de que las lesiones que ha sufrido no empeoren. De esta actuación dependerá la evolución de la persona accidentada.
 
-So, while reading the article, my immediate thought was: who owns the copyright of these new songs?
+Los objetivos son:
 
-Think about it, imagine one of this new songs becomes a massive hit with millions of youtube views and spotify streams, who can claim the royalties generated?
+Mantener vivo al accidentado.
+Evitar nuevas lesiones o complicaciones.
+Poner al accidentado lo antes posible en manos de servicios médicos.
+Aliviar el dolor.
+Evitar infecciones o lesiones secundarias.
+Siempre que se presten primeros auxilios hay que seguir unos consejos generales:
 
-At first it seems quite simple, *Over the Bridge* should be the ones reaping the benefits, since they are the ones who had the idea, gathered the data and then fed the neural network to get the "work of art". But in a second thought, didn't the original artists provide the basis for the work the neural network generated? shouldn't their state get credit? what about Google whose tool was used, should they get credit too?
-
-Neural networks have been also used to create poetry, paintings and to write news articles, but how do they do it? A computer program developed for machine learning purposes is an algorithm that "learns" from data to make future decisions. When applied to art, music and literary works, machine learning algorithms are actually learning from some input data to generate a new piece of work, making independent decisions throughout the process to determine what the new work looks like. An important feature of this is that while programmers can set the parameters, the work is actually generated by the neural network itself, in a process akin to the thought processes of humans.
-
-Now, creative works qualify for copyright protection if they are original, with most definitions of originality requiring a human author. Most jurisdictions, including [Spain](https://www.wipo.int/wipolex/en/details.jsp?id=1319) and [Germany](https://dejure.org/gesetze/UrhG/7.html), specifically state that only works created by a human can be protected by [copyright](https://www.wipo.int/copyright/en/). In the United States, for example, [the Copyright Office has declared](https://copyright.gov/comp3/chap300/ch300-copyrightable-authorship.pdf) that it will “register an original work of authorship, provided that the work was created by a human being.” 
-
-So as we currently stand, a human author is required to grant a copyright, which makes sense, there is no point of having a neural network be the beneficiary of royalties of a creative work (no bank would open an account for them anyways, lol).
-
-I think amendments have to be made to the law to ensure that the person who undertook all the arrangements necessary for the work to be created by the neural network gets the credit but also we need to modify copyright law to ensure the original authors of the body of work used as data input to produce the new piece get their corresponding share of credit. This will get messy if someone uses for example the #1 song of every month in a decade to create the decade song, then there would be as many as 120 different artists to credit.
-
-<tweet>In a computer generated artistic work, both the person who undertook all the arrangements necessary for its creation as well as the original authors of the data input need to be credited.</tweet> 
-
-There will still be some ambiguity as to who undertook the arrangements necessary, only the one who gathered the data and pressed the button to let the network learn, or does the person who created the neural network's model also get credit? Shall we go all the way and say that even the programmer of the neural network gets some credit as well?
-
-There are some countries, in particular the UK where some progress has been made to amend copyright laws to cater for computer generated works of art, but I believe this is one of those fields where technology will surpass our law making capacity and we will live under a grey area for a while, and maybe this is just what we need, by having these works ending up free for use by anyone in the world, perhaps a new model for remunerating creative work can be established, one that does not require commercial success to be necessary for artists to make a living, and thus they can become free to explore their art.
-
-<tweet>Perhaps a new model for remunerating creative work can be established, one that does not require commercial success to be necessary for artists to make a living.</tweet>
-
-![The next Rembrandt](./assets/img/posts/20210420/post8-rembrandt2.jpg)
-<small>[The Next Rembrandt](https://www.jwt.com/en/work/thenextrembrandt) is a computer-generated 3-D–printed painting developed by a facial-recognition algorithm that scanned data from 346 known paintings by the Dutch painter in a process lasting 18 months. The portrait is based on 168,263 fragments from Rembrandt’s works.</small>
-
+Actuar con rapidez pero conservando la calma.
+Evitar aglomeraciones.
+Saber imponerse.
+No mover a la persona herida salvo que sea imprescindible.
+Traslado adecuado.
+No dar al herido de beber, comer o medicar.
+Tranquilizar al herido.
+Mantener al herido caliente.
+Hacer solo lo imprescindible.
+Si no se sabe, abstenerse.
+¡ATENCIÓN!. El Socorrista también debe protegerse (guantes, protectores en el boca a boca…).
