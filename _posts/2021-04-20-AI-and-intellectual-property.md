@@ -33,14 +33,14 @@ PRIMEROS AUXILIOS
  <li>Amputaciones traumáticas</li>
  <li>Cuerpos extraños</li>
  <li>Picaduras y mordeduras</li>
- <li>13.-Quemaduras</li>
- <li>14.-Insolaciones</li>
- <li>15.-Lipotimia</li>
- <li>16.-Convulsiones</li>
- <li>17.-Contusiones, esguinces y luxaciones</li>
- <li>18.-Fracturas</li>
- <li>19.-Fracturas de consideración importante</li>
-    <li>20.-Actuación ante intoxicaciones</li>
+ <li>Quemaduras</li>
+ <li>Insolaciones</li>
+ <li>Lipotimia</li>
+ <li>Convulsiones</li>
+ <li>Contusiones, esguinces y luxaciones</li>
+ <li>Fracturas</li>
+ <li>Fracturas de consideración importante</li>
+    <li>Actuación ante intoxicaciones</li>
 </ol>
 
 PRIMEROS AUXILIOS: DEFINICIÓN, OBJETIVOS Y CONSEJOS GENERALES
@@ -48,23 +48,27 @@ Podemos definir los primeros auxilios como el conjunto de actuaciones y técnica
 
 Los objetivos son:
 
-1.-Mantener vivo al accidentado.
-2.-Evitar nuevas lesiones o complicaciones.
-3.-Poner al accidentado lo antes posible en manos de servicios médicos.
-4.-Aliviar el dolor.
-5.-Evitar infecciones o lesiones secundarias.
+<ol>
+ <li>Mantener vivo al accidentado.</li>
+ <li>Evitar nuevas lesiones o complicaciones.</li>
+ <li>Poner al accidentado lo antes posible en manos de servicios médicos.</li>
+ <li>Aliviar el dolor.</li>
+   <li>Evitar infecciones o lesiones secundarias.</li>
+</ol>
 
 Siempre que se presten primeros auxilios hay que seguir unos consejos generales:
 
-1.-Actuar con rapidez pero conservando la calma.
-2.-Evitar aglomeraciones.
-3.-Saber imponerse.
-4.-No mover a la persona herida salvo que sea imprescindible.
-5.-Traslado adecuado.
-6.-No dar al herido de beber, comer o medicar.
-7.-Tranquilizar al herido.
-8.-Mantener al herido caliente.
-9.-Hacer solo lo imprescindible.
-10.-Si no se sabe, abstenerse.
+<ol>
+ <li>Actuar con rapidez pero conservando la calma.</li>
+ <li>Evitar aglomeraciones.</li>
+ <li>Saber imponerse.</li>
+ <li>No mover a la persona herida salvo que sea imprescindible.</li>
+ <li>Traslado adecuado.</li>
+ <li>No dar al herido de beber, comer o medicar.</li>
+ <li>Tranquilizar al herido.</li>
+ <li>Mantener al herido caliente.</li>
+ <li>Hacer solo lo imprescindible.</li>
+ <li>Si no se sabe, abstenerse.</li>
+ </ol>
 
 ¡ATENCIÓN!. El Socorrista también debe protegerse (guantes, protectores en el boca a boca…).
