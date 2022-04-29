@@ -101,7 +101,8 @@ Ocasionalmente, las infecciones leves, tanto virales como bacterianas, pueden co
 
 Llame al pediatra si la enfermedad de su hijo parece cambiar, empeora, no desaparece después de unos días o si está preocupado debido a otro síntoma nuevo que aparezca. Si la enfermedad de su hijo empeora o tiene complicaciones, su pediatra puede recomendar un tratamiento nuevo.
 
-¿Tiene más preguntas?
+### ¿Tiene más preguntas?
+
 Si tiene alguna pregunta o inquietud sobre la atención apropiada para su hijo, hable con su pediatra al respecto. Aunque puede ser tentador concurrir a una clínica cercana de horarios extendidos para que atiendan a su hijo enfermo, su pediatra es quien conoce mejor a su hijo, tiene su historia clínica y es el más indicado para brindarle un consejo. Pregúntele a su pediatra cómo puede comunicarse con él o ella cuando el consultorio esté cerrado.  
 
 De hecho, la AAP no recomienda las clínicas en establecimientos minoristas (droguerías), los servicios de tele salud fuera del hogar médico ni servicios de atención de enfermedades agudas que no tengan experiencia pediátrica con niños menores de 2 años. 
