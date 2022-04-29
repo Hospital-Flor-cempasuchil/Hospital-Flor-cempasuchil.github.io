@@ -14,7 +14,7 @@ Todos los niños merecen una atención médica de alta calidad. Como padres, es 
 
 La siguiente información de la American Academy of Pediatrics (AAP) menciona algunas de las enfermedades infantiles más comunes y los tratamientos que han sido aprobados. Los tratamientos que se mencionan aquí son basados en evidencia científica y en las mejores prácticas. Sin embargo, su pediatra puede tener razones para ofrecerle diferentes recomendaciones, especialmente si su hijo tiene una afección médica o sufre de una alergia. Su pediatra hablará con usted sobre cualquier variación en el tratamiento. Si tiene alguna pregunta sobre cuál es la atención más apropiada para su hijo, hable con su pediatra al respecto.
 
-1.  Dolor de garganta
+### Dolor de garganta
 
 Los dolores de garganta son comunes en los niños y pueden ser dolorosos. Sin embargo, un dolor de garganta provocado por un virus no necesita antibióticos. En esos casos, no se necesita ningún medicamento específico y su hijo se sentirá mejor en siete a diez días. En otros casos, un dolor de garganta podría ser causado por una infección estreptocócica (faringitis).
 
@@ -24,7 +24,7 @@ Los bebés y los niños pequeños rara vez tienen faringitis, pero son más prop
 
 Consulte: La diferencia entre un dolor de garganta, faringitis y amigdalitis. 
 
-2.  Dolor de oído
+### Dolor de oído
 
 El dolor de oído es común en los niños y puede tener muchas causas; entre otras, infección del oído (otitis media), oído de nadador (infección de la piel en el canal auditivo), presión debido a un resfriado o una infección sinusal, dolor en los dientes que se irradia por la mandíbula hasta el oído, etc. Para diferenciarlas, el pediatra tendrá que examinar el oído de su hijo. De hecho, un examen en el consultorio sigue siendo la mejor manera de que su pediatra haga un diagnóstico preciso. Si el dolor de oído de su hijo está acompañado de fiebre alta, afecta ambos oídos, o si su hijo tiene otros síntomas de enfermedad, el pediatra puede decidir que un antibiótico es el mejor tratamiento.
 
@@ -34,7 +34,7 @@ Muchas infecciones verdaderas del oído son causadas por virus y no necesitan an
 
 Consulte: Información sobre la infección del oído, Infecciones del oído medio y Su hijo y las infecciones del oído.
 
-3.  Infección de las vías urinarias
+### Infección de las vías urinarias
 
 Las infecciones de la vejiga, también llamadas infecciones de las vías urinarias, IVU se producen cuando se acumulan bacterias en las vías urinarias. Las IVU se pueden presentar en niños desde la infancia hasta la adolescencia y en la edad adulta. Los síntomas de una infección de las vías urinarias son, entre otros, dolor o ardor al orinar, la necesidad de orinar con frecuencia o urgencia, enuresis (mojar la cama) o accidentes en niños que ya dejaron los pañales, dolor abdominal o dolor en el costado o la espalda.
 
@@ -42,19 +42,19 @@ El médico de su hijo necesitará una muestra de orina para hacer una prueba de 
 
 Consulte: Cómo detectar las infecciones de las vías urinarias e Infecciones de las vías urinarias en adolescentes.
 
-4.  Infección de la piel
+### Infección de la piel
 
 En la mayoría de los niños con infecciones de la piel, es posible que se necesite una prueba cutánea (cultivo o hisopado) para determinar el tratamiento más apropiado. Comuníquele a su médico si su hijo tiene antecedentes de Staphylococcus aureus resistente a la meticilina (MRSA), una infección por estafilococos u otras bacterias resistentes, o si estuvo expuesto a otros familiares o personas con bacterias resistentes.
 
 Consulte: Furúnculos, abscesos y celulitis y Consejos para tratar los virus, los hongos y los parásitos.
 
-5.  Bronquitis
+### Bronquitis
 
 La bronquitis crónica es una infección de las vías respiratorias centrales más grandes en los pulmones y se observa con más frecuencia en los adultos. La palabra "bronquitis" se suele utilizar para describir un virus del pecho que no necesita antibióticos.
 
 Consulte: Bronquitis (CDC.gov en español).
 
-6.  Bronquiolitis
+### Bronquiolitis
 
 La bronquiolitis es común en bebés y niños pequeños durante la temporada de resfriados y gripe (influenza). El médico puede oír "sibilancias" cuando su hijo respira.
 
@@ -62,7 +62,7 @@ La bronquiolitis suele ser provocada por un virus que no necesita antibióticos.
 
 Consulte: La bronquiolitis y ¿Cómo tratar la bronquiolitis de su bebé?
 
-7.  Dolor
+### Dolor
 
 Los mejores medicamentos para aliviar el dolor de los niños son acetaminofén o ibuprofeno. Hable con su pediatra para determinar la dosis que debe darle a su hijo, ya que esta se debe basar en el peso del niño.
 
@@ -70,14 +70,14 @@ Los analgésicos narcóticos no son apropiados para niños con lesiones comunes 
 
 Consulte: Los medicamentos para la fiebre y el dolor: qué cantidad debe darle a su niño.
 
-8.  Resfriado común
+### Resfriado común
 
 Los resfriados son causados por virus en las vías respiratorias superiores. Muchos niños pequeños, especialmente aquellos que van a la guardería, pueden tener de 6 a 8 resfriados al año. Los síntomas de un resfriado (como goteo nasal, congestión y tos) pueden durar hasta diez días.  
 La mucosidad verde en la nariz no significa automáticamente que se necesiten antibióticos; los antibióticos no son necesarios para tratar el resfriado común. Sin embargo, si se sospecha la existencia de una infección sinusal, su médico decidirá con cuidado si los antibióticos son una buena opción de acuerdo con los síntomas de su hijo y el resultado de un examen físico.
 
 Consulte: Niños y resfriados y Cómo tratar el resfriado o la gripe (influenza) de su hijo.
 
-9.  Sinusitis bacteriana
+### Sinusitis bacteriana
 
 La sinusitis bacteriana es causada por bacterias atrapadas en los senos nasales. Se sospecha la existencia de una sinusitis cuando los síntomas de resfriado, como secreción nasal, tos diurna o ambos, duran más de diez días sin mejoría.
 
@@ -85,7 +85,7 @@ Quizá sean necesarios los antibióticos si esta afección también presenta sec
 
 Consulte: La diferencia entre un resfriado y una sinusitis bacteriana.
 
-10.  Tos
+### Tos
 
 La tos generalmente es causada por virus y los antibióticos no suelen ser necesarios.
 
