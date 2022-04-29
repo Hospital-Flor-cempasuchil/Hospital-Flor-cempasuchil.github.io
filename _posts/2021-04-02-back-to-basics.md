@@ -22,7 +22,6 @@ La faringitis no se puede diagnosticar con precisión simplemente con observar l
 
 Los bebés y los niños pequeños rara vez tienen faringitis, pero son más propensos a las infecciones provocadas por la bacteria estreptococo si van a una guardería o si un hermano mayor tiene la enfermedad. Si bien la faringitis se contagia principalmente por la tos y los estornudos, su hijo también puede contagiarse al tocar un juguete con el que jugó un niño infectado.
 
-Consulte: La diferencia entre un dolor de garganta, faringitis y amigdalitis. 
 
 ### Dolor de oído
 
@@ -32,7 +31,6 @@ La amoxicilina es el antibiótico preferido para las infecciones del oído medio
 
 Muchas infecciones verdaderas del oído son causadas por virus y no necesitan antibióticos. Si su pediatra sospecha que la infección del oído de su hijo puede ser causada por un virus, hablará con usted sobre las mejores formas de aliviar el dolor de oído del niño hasta que el virus desaparezca.
 
-Consulte: Información sobre la infección del oído, Infecciones del oído medio y Su hijo y las infecciones del oído.
 
 ### Infección de las vías urinarias
 
@@ -40,19 +38,16 @@ Las infecciones de la vejiga, también llamadas infecciones de las vías urinari
 
 El médico de su hijo necesitará una muestra de orina para hacer una prueba de detección de infección de las vías urinarias antes de determinar un tratamiento. Su médico puede adaptar el tratamiento de acuerdo con la bacteria que se encuentre en la orina de su hijo.
 
-Consulte: Cómo detectar las infecciones de las vías urinarias e Infecciones de las vías urinarias en adolescentes.
 
 ### Infección de la piel
 
 En la mayoría de los niños con infecciones de la piel, es posible que se necesite una prueba cutánea (cultivo o hisopado) para determinar el tratamiento más apropiado. Comuníquele a su médico si su hijo tiene antecedentes de Staphylococcus aureus resistente a la meticilina (MRSA), una infección por estafilococos u otras bacterias resistentes, o si estuvo expuesto a otros familiares o personas con bacterias resistentes.
 
-Consulte: Furúnculos, abscesos y celulitis y Consejos para tratar los virus, los hongos y los parásitos.
 
 ### Bronquitis
 
 La bronquitis crónica es una infección de las vías respiratorias centrales más grandes en los pulmones y se observa con más frecuencia en los adultos. La palabra "bronquitis" se suele utilizar para describir un virus del pecho que no necesita antibióticos.
 
-Consulte: Bronquitis (CDC.gov en español).
 
 ### Bronquiolitis
 
@@ -60,7 +55,6 @@ La bronquiolitis es común en bebés y niños pequeños durante la temporada de 
 
 La bronquiolitis suele ser provocada por un virus que no necesita antibióticos. En su lugar, la mayoría de las recomendaciones para su tratamiento se centran en que su hijo se sienta cómodo con un control estricto para detectar cualquier dificultad para respirar y comer o signos de deshidratación. Los medicamentos utilizados para pacientes con asma (como el albuterol o los esteroides) no son recomendables para la mayoría de los bebés y los niños pequeños con bronquiolitis. Los niños prematuros o con problemas de salud subyacentes podrían necesitar tratamientos diferentes.
 
-Consulte: La bronquiolitis y ¿Cómo tratar la bronquiolitis de su bebé?
 
 ### Dolor
 
@@ -68,14 +62,12 @@ Los mejores medicamentos para aliviar el dolor de los niños son acetaminofén o
 
 Los analgésicos narcóticos no son apropiados para niños con lesiones comunes o dolencias como un esguince de tobillo, dolor de oído o dolor de garganta. Nunca se le debe dar codeína a los niños ya que este fármaco se ha asociado con problemas respiratorios graves e incluso la muerte en niños.
 
-Consulte: Los medicamentos para la fiebre y el dolor: qué cantidad debe darle a su niño.
 
 ### Resfriado común
 
 Los resfriados son causados por virus en las vías respiratorias superiores. Muchos niños pequeños, especialmente aquellos que van a la guardería, pueden tener de 6 a 8 resfriados al año. Los síntomas de un resfriado (como goteo nasal, congestión y tos) pueden durar hasta diez días.  
 La mucosidad verde en la nariz no significa automáticamente que se necesiten antibióticos; los antibióticos no son necesarios para tratar el resfriado común. Sin embargo, si se sospecha la existencia de una infección sinusal, su médico decidirá con cuidado si los antibióticos son una buena opción de acuerdo con los síntomas de su hijo y el resultado de un examen físico.
 
-Consulte: Niños y resfriados y Cómo tratar el resfriado o la gripe (influenza) de su hijo.
 
 ### Sinusitis bacteriana
 
@@ -83,7 +75,6 @@ La sinusitis bacteriana es causada por bacterias atrapadas en los senos nasales.
 
 Quizá sean necesarios los antibióticos si esta afección también presenta secreción nasal espesa y amarilla y fiebre durante al menos 3 o 4 días seguidos. 
 
-Consulte: La diferencia entre un resfriado y una sinusitis bacteriana.
 
 ### Tos
 
@@ -91,7 +82,6 @@ La tos generalmente es causada por virus y los antibióticos no suelen ser neces
 
 Los medicamentos para la tos no son recomendables para niños de 4 años de edad y menores ni para niños de 4 a 6 años de edad, a menos que lo indique su médico. Los estudios han demostrado sistemáticamente que los medicamentos para la tos no funcionan en el grupo de edad de 4 años y menores, y pueden provocar efectos secundarios graves. No se deben administrar a los niños medicamentos para la tos con narcóticos como la codeína.
 
-Consulte: La tos y el resfriado: ¿medicamentos o remedios caseros?
 
 Si los síntomas cambian:
 
