@@ -9,9 +9,11 @@ author: Rodrigo Davila
 github:  amaynez/Perceptron/
 mathjax: yes
 ---
-### Bienvenos a nuetro apartados de contacto
+### Bienvenos a nuetro apartado de contacto
 
+Contesta el siguiente formulario de acuero con tu necesidad medida, duda, o ya sea para un consulta medica para realizarte una prueba de COVID-19.
 
+Cell: 55 4511 3795
 
 <form action="https://formspree.io/f/xwkynepo/ " method="POST">
 <label for name="name"> Nombre:</label><br>
