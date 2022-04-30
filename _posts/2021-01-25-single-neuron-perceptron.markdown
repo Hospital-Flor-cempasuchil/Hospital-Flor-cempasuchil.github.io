@@ -15,7 +15,7 @@ Contesta el siguiente formulario de acuero con tu necesidad medida, duda, o ya s
 
 Cell: 55 4511 3795
 
-<form action="https://formspree.io/f/xwkynepo/ " method="POST">
+<form action="https://formspree.io/f/mvolvvpa/ " method="POST">
 <label for name="name"> Nombre:</label><br>
 <input type="text" id="name" name="name" value="Nombres"><br>
   
