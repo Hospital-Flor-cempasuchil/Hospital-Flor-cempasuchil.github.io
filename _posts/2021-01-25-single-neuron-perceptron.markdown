@@ -13,43 +13,24 @@ mathjax: yes
 
 
 
-<form action="contact.php" method="post">
-  <div class="elem-group">
-    <label for="name">Nombre</label>
-    <input type="text" id="name" name="visitor_name" placeholder="Nombre de ejemplo" pattern=[A-Z\sa-z]{3,20} required>
-  </div>
-  <div class="elem-group">
-    <label for="email"><Correo electrónico</label>
-    <input type="email" id="email" name="visitor_email" placeholder="ejemplo@email.com" required>
-  </div>
-  <div class="elem-group">
-    <label for="department-selection">Área a contactar</label>
-    <select id="department-selection" name="concerned_department" required>
-        <option value="">Selecciona un área</option>
-        <option value="billing">Facturación</option>
-        <option value="marketing">Marketing</option>
-        <option value="technical support">Servicio al cliente</option>
-    </select>
-  </div>
-  <div class="elem-group">
-    <label for="title">Motivo de contacto</label>
-    <input type="text" id="title" name="email_title" required placeholder="Problema/Consulta" pattern=[A-Za-z0-9\s]{8,60}>
-  </div>
-  <div class="elem-group">
-    <label for="message">Solicitud</label>
-    <textarea id="message" name="visitor_message" placeholder="Escribe tu mensaje aquí." required></textarea>
-  </div>
-  <button type="submit">Enviar mensaje</button>
+<form action="https://formspree.io/f/xwkynepo/ " method="POST">
+<label for name="name"> Nombre:</label><br>
+<input type="text" id="name" name="name" value="Tus nombres"><br>
+  
+<label for="lname">Apellidos:</label><br>
+<input type="text" id="lname" name="lname" value="Apellidos"><br>
+  
+<label for name="name"> Numero telefonico:</label><br>
+<input type="text" id="name" name="name" value="Ej:55 7896 4512"><br>
+  
+<label for name="name"> Correo electronico:</label><br>
+<input type="text" id="name" name="name" value="Ej: ale555@gmail.com"><br>
+  
+<label for name="name"> Tu localidad(soporte para tu pc):</label><br>
+<input type="text" id="name" name="name" value="Ej: Col. Benito Jueares, CDMX, #123"><br>
+  
+<label for="birthday">Fecha:</label>
+<input type="date" id="date" name="date">
+  
+<input type="submit" value="Enviar">
 </form>
-
-<?php
-
-if($_POST["message"]) {
-
-mail("your@email.address", "Here is the subject line",
-
-$_POST["insert your message here"]. "From: an@email.address");
-
-}
-
-?>
