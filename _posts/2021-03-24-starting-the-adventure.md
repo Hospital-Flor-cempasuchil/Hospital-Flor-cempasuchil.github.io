@@ -3,7 +3,7 @@ layout: post
 read_time: false
 show_date: false
 title: "Diagnosticos medicos"
-img: posts/20210324/starting_adventure.jpg
+img: posts/20210324/Diagnostico-medico.jpeg
 author: Rodrigo Davila
 description: "Midlife career change: a disaster or an opportunity?"
 ---
