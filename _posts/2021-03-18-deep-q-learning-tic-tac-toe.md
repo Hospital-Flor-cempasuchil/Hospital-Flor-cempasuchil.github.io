@@ -1,7 +1,7 @@
 ---
 layout: post
-read_time: true
-show_date: true
+read_time: false
+show_date: false
 title:  "Medicametos recomendados"
 description: "Inspired by Deep Mind's astonishing feats of having their Alpha Go, Alpha Zero and Alpha Star programs learn (and be amazing at it) Go, Chess, Atari games and lately Starcraft; I set myself to the task of programming a neural network that will learn by itself how to play the ancient game of tic tac toe. How hard could it be?"
 img: posts/20210318/TicTacToeSml.jpg
