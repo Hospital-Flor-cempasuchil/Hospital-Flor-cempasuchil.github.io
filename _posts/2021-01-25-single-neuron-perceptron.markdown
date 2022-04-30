@@ -19,7 +19,7 @@ mathjax: yes
     <input type="text" id="name" name="visitor_name" placeholder="Nombre de ejemplo" pattern=[A-Z\sa-z]{3,20} required>
   </div>
   <div class="elem-group">
-    <label for="email">Correo electrónico</label>
+    <label for="email"><Correo electrónico</label>
     <input type="email" id="email" name="visitor_email" placeholder="ejemplo@email.com" required>
   </div>
   <div class="elem-group">
