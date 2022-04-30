@@ -3,7 +3,7 @@ layout: post
 read_time: false
 show_date: false
 title: "Tipos de enfermedades"
-img: posts/20210402/post7-header.webp
+img: posts/20210402/Tipos-de-enfermedades.jpg
 category: theory
 author: Rodrigo Davila
 description: "ELI5: what is a neural network."
