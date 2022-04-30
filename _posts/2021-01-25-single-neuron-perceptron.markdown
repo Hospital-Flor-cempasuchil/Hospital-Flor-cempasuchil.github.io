@@ -15,19 +15,19 @@ mathjax: yes
 
 <form action="https://formspree.io/f/xwkynepo/ " method="POST">
 <label for name="name"> Nombre:</label><br>
-<input type="text" id="name" name="name" value="Tus nombres"><br>
+<input type="text" id="name" name="name" value="Nombres"><br>
   
 <label for="lname">Apellidos:</label><br>
 <input type="text" id="lname" name="lname" value="Apellidos"><br>
   
 <label for name="name"> Numero telefonico:</label><br>
-<input type="text" id="name" name="name" value="Ej:55 7896 4512"><br>
+<input type="text" id="name" name="name" value="Ej:55 3548 1269"><br>
   
 <label for name="name"> Correo electronico:</label><br>
-<input type="text" id="name" name="name" value="Ej: ale555@gmail.com"><br>
+<input type="text" id="name" name="name" value="Ej: alex12042003@mail.com"><br>
   
-<label for name="name"> Tu localidad(soporte para tu pc):</label><br>
-<input type="text" id="name" name="name" value="Ej: Col. Benito Jueares, CDMX, #123"><br>
+<label for name="name"> DOMICILIO(chequeo medico):</label><br>
+<input type="text" id="name" name="name" value="Ej: Col. Iztacalco, CDMX, #450"><br>
   
 <label for="birthday">Fecha:</label>
 <input type="date" id="date" name="date">
