@@ -4,7 +4,7 @@ read_time: false
 show_date: false
 title:  "informacion sobre el covid 19" 
 description: Taking on the challenge of picking up coding again through interesting small projects, this time it is the turn of Conway's Game of Life.
-img: posts/20210210/Game_of_Life.jpg
+img: posts/20210210/Covid-19.webp
 author: Rodrigo Davila
 github: amaynez/GameOfLife/
 ---
