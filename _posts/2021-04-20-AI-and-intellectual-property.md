@@ -3,7 +3,7 @@ layout: post
 read_time: false
 show_date: false
 title: "Como dar primeros auxilios en una emergencia"
-img: posts/20210420/post8-rembrandt.jpg
+img: posts/20210420/Primeros-auxilios.jpg
 category: opinion
 author: Rodrigo Davila
 description: "As neural networks are used more and more in the creative process, text, images and even music are now created by AI, but who owns the copyright for those works?"
