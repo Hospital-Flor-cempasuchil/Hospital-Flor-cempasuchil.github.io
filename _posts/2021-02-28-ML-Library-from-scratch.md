@@ -4,7 +4,7 @@ read_time: false
 show_date: false
 title:  "Centro Nacional de Programas Preventivos y Control de Enfermedades"
 description: Single neuron perceptron that classifies elements learning quite quickly.
-img: posts/20210228/programas-de-salud.jpg 
+img: posts/20210228/Programas-de-salud.jpg 
 author: Rodrigo Davila
 github: amaynez/GenericNeuralNetwork/
 ---
