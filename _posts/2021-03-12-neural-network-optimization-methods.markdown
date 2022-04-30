@@ -4,7 +4,7 @@ read_time: false
 show_date: false
 title:  "Tratamiento del VIH"
 description: Some neural network optimization algorithms mostly to implement momentum when doing back propagation.
-img: posts/20210312/nnet_optimization.jpg
+img: posts/20210312/VIH.webp
 author: Rodrigo Davila
 github: amaynez/TicTacToe/blob/7bf83b3d5c10adccbeb11bf244fe0af8d9d7b036/entities/Neural_Network.py#L199
 mathjax: yes # leave empty or erase to prevent the mathjax javascript from loading
