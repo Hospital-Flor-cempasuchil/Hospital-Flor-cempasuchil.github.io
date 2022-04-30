@@ -1,337 +1,84 @@
 ---
 layout: post
-read_time: true
-show_date: true
-title:  Neural Network Optimization Methods and Algorithms
-date:   2021-03-12 13:32:20 -0600
+read_time: false
+show_date: false
+title:  "Tratamiento del VIH"
 description: Some neural network optimization algorithms mostly to implement momentum when doing back propagation.
 img: posts/20210312/nnet_optimization.jpg
-tags: [coding, machine learning, optimization, deep Neural networks]
-author: Armando Maynez
+author: Rodrigo Davila
 github: amaynez/TicTacToe/blob/7bf83b3d5c10adccbeb11bf244fe0af8d9d7b036/entities/Neural_Network.py#L199
 mathjax: yes # leave empty or erase to prevent the mathjax javascript from loading
 toc: yes # leave empty or erase for no TOC
 ---
-For the seemingly small project I undertook of [creating a machine learning neural network that could learn by itself to play tic-tac-toe](./deep-q-learning-tic-tac-toe.html), I bumped into the necesity of implementing at least one momentum algorithm for the optimization of the network during backpropagation.
+#### Recién diagnosticado: Pasos a seguir después de un resultado positivo de la prueba del VIH
 
-And since my original post for the TicTacToe project is quite large already, I decided to post separately these optimization methods and how did I implement them in my code.
+### Puntos importantes
 
-### Adam
-[source](https://ruder.io/optimizing-gradient-descent/index.html#adam)
+<ol>
+<li>Un resultado positivo de la prueba del VIH a menudo deja a una persona abrumada con preguntas e inquietudes. Es importante recordar que la infección por el VIH se puede tratar eficazmente con los medicamentos empleados para combatirla. Esos medicamentos ayudan a las personas que lo tienen a llevar una vida más larga y sana y reducen el riesgo de transmisión del VIH.</li>
+  
+<li>El primer paso después de una prueba positiva del VIH es consultar con un proveedor de atención de salud, aunque usted no se sienta enfermo. La mejor forma de mantenerse sano consiste en recibir atención médica y tratamiento con medicamentos contra el VIH lo más pronto posible.</li>
+  
+<li>Después de recibir resultados positivos en la prueba de detección del VIH, la primera consulta de una persona con un proveedor de atención de salud incluye un examen de su salud e historia clínica, un examen físico y varias pruebas de laboratorio.</li>
+</ol>
 
-<p>Adaptive Moment Estimation (Adam) is an optimization method that computes adaptive learning rates for each weight and bias. In addition to storing an exponentially decaying average of past squared gradients \(v_t\) and an exponentially decaying average of past gradients \(m_t\), similar to momentum. Whereas momentum can be seen as a ball running down a slope, Adam behaves like a heavy ball with friction, which thus prefers flat minima in the error surface. We compute the decaying averages of past and past squared gradients \(m_t\) and \(v_t\) respectively as follows:</p>
-<p style="text-align:center">\(<br>
-\begin{align}<br>
-\begin{split}<br>
-m_t &amp;= \beta_1 m_{t-1} + (1 - \beta_1) g_t \\<br>
-v_t &amp;= \beta_2 v_{t-1} + (1 - \beta_2) g_t^2<br>
-\end{split}<br>
-\end{align}<br>
-\)</p>
-<p>\(m_t\) and \(v_t\) are estimates of the first moment (the mean) and the second moment (the uncentered variance) of the gradients respectively, hence the name of the method. As \(m_t\) and \(v_t\) are initialized as vectors of 0's, the authors of Adam observe that they are biased towards zero, especially during the initial time steps, and especially when the decay rates are small (i.e. \(\beta_1\) and \(\beta_2\) are close to 1).</p>
-<p>They counteract these biases by computing bias-corrected first and second moment estimates:</p>
-<p style="text-align:center">\(<br>
-\begin{align}<br>
-\begin{split}<br>
-\hat{m}_t &amp;= \dfrac{m_t}{1 - \beta^t_1} \\<br>
-\hat{v}_t &amp;= \dfrac{v_t}{1 - \beta^t_2} \end{split}<br>
-\end{align}<br>
-\)</p>
-<p>We then use these to update the weights and biases which yields the Adam update rule:</p>
-<p style="text-align:center">\(\theta_{t+1} = \theta_{t} - \dfrac{\eta}{\sqrt{\hat{v}_t} + \epsilon} \hat{m}_t\).</p>
-<p>The authors propose defaults of 0.9 for \(\beta_1\), 0.999 for \(\beta_2\), and \(10^{-8}\) for \(\epsilon\).</p>
-[view on github](https://github.com/amaynez/TicTacToe/blob/b429e5637fe5f61e997f04c01422ad0342565640/entities/Neural_Network.py#L243)
+### ¿Cuál es el siguiente paso después de un resultado positivo de la prueba del VIH?
 
-```python
-# decaying averages of past gradients
-self.v["dW" + str(i)] = ((c.BETA1
-                        * self.v["dW" + str(i)])
-                        + ((1 - c.BETA1)
-                        * np.array(self.gradients[i])
-                        ))
-self.v["db" + str(i)] = ((c.BETA1
-                        * self.v["db" + str(i)])
-                        + ((1 - c.BETA1)
-                        * np.array(self.bias_gradients[i])
-                        ))
+Un resultado positivo de la prueba del VIH a menudo deja a una persona abrumada y con preguntas e inquietudes. Es importante recordar que la infección por el VIH se puede tratar eficazmente con los medicamentos empleados para combatirla.
 
-# decaying averages of past squared gradients
-self.s["dW" + str(i)] = ((c.BETA2
-                        * self.s["dW"+str(i)])
-                        + ((1 - c.BETA2)
-                        * (np.square(np.array(self.gradients[i])))
-                         ))
-self.s["db" + str(i)] = ((c.BETA2
-                        * self.s["db" + str(i)])
-                        + ((1 - c.BETA2)
-                        * (np.square(np.array(
-                                         self.bias_gradients[i])))
-                         ))
+Se recomienda el tratamiento con medicamentos contra el VIH (llamado tratamiento antirretroviral o TAR) a todas las personas seropositivas. Esos fármacos les ayudan a tener una vida más larga y sana y reducen el riesgo de transmisión del VIH.
 
-if c.ADAM_BIAS_Correction:
-    # bias-corrected first and second moment estimates
-    self.v["dW" + str(i)] = self.v["dW" + str(i)]
-                          / (1 - (c.BETA1 ** true_epoch))
-    self.v["db" + str(i)] = self.v["db" + str(i)]
-                          / (1 - (c.BETA1 ** true_epoch))
-    self.s["dW" + str(i)] = self.s["dW" + str(i)]
-                          / (1 - (c.BETA2 ** true_epoch))
-    self.s["db" + str(i)] = self.s["db" + str(i)]
-                          / (1 - (c.BETA2 ** true_epoch))
+El primer paso después de recibir un resultado positivo del VIH es ver a un proveedor de atención de salud, aunque usted no se sienta enfermo. La mejor forma de mantenerse sano consiste en recibir atención médica y tratamiento con medicamentos contra el VIH lo más pronto posible.
 
-# apply to weights and biases
-weight_col -= ((eta * (self.v["dW" + str(i)]
-                      / (np.sqrt(self.s["dW" + str(i)])
-                      + c.EPSILON))))
-self.bias[i] -= ((eta * (self.v["db" + str(i)]
-                        / (np.sqrt(self.s["db" + str(i)])
-                        + c.EPSILON))))
-```
+### Después de obtener resultados positivos en la prueba de detección del VIH, ¿qué puede esperar una persona durante su primera consulta con un proveedor de atención de salud?
 
-### SGD Momentum
-[source](https://ruder.io/optimizing-gradient-descent/index.html#momentum)
+Después de recibir resultados positivos en la prueba de detección del VIH, la primera consulta de una persona con un proveedor de atención de salud incluye un examen de su salud e historia clínica, un examen físico y varias pruebas de laboratorio.
 
-<p>Vanilla SGD has trouble navigating ravines, i.e. areas where the surface curves much more steeply in one dimension than in another, which are common around local optima. In these scenarios, SGD oscillates across the slopes of the ravine while only making hesitant progress along the bottom towards the local optimum.</p>
-<p>Momentum is a method that helps accelerate SGD in the relevant direction and dampens oscillations. It does this by adding a fraction \(\gamma\) of the update vector of the past time step to the current update vector:</p>
-<p style="text-align:center">\(<br>
-\begin{align}<br>
-\begin{split}<br>
-v_t &amp;= \beta_1 v_{t-1} + \eta \nabla_\theta J( \theta) \\<br>
-\theta &amp;= \theta - v_t<br>
-\end{split}<br>
-\end{align}<br>
-\)</p>
-<p>The momentum term \(\beta_1\) is usually set to 0.9 or a similar value.</p>
-<p>Essentially, when using momentum, we push a ball down a hill. The ball accumulates momentum as it rolls downhill, becoming faster and faster on the way (until it reaches its terminal velocity if there is air resistance, i.e. \(\beta_1 &lt; 1\)). The same thing happens to our weight and biases updates: The momentum term increases for dimensions whose gradients point in the same directions and reduces updates for dimensions whose gradients change directions. As a result, we gain faster convergence and reduced oscillation.</p>
-[view on github](https://github.com/amaynez/TicTacToe/blob/b429e5637fe5f61e997f04c01422ad0342565640/entities/Neural_Network.py#L210)
+La información recolectada durante la consulta inicial de una persona se emplea para tomar decisiones sobre el tratamiento de la infección por el VIH.
 
-```python
-self.v["dW"+str(i)] = ((c.BETA1*self.v["dW" + str(i)])
-                       +(eta*np.array(self.gradients[i])
-                       ))
-self.v["db"+str(i)] = ((c.BETA1*self.v["db" + str(i)])
-                       +(eta*np.array(self.bias_gradients[i])
-                       ))
+### ¿Qué pruebas de laboratorio se emplean para tomar decisiones sobre el tratamiento de la infección por el VIH?
 
-weight_col -= self.v["dW" + str(i)]
-self.bias[i] -= self.v["db" + str(i)]
-```
+Un proveedor de atención de salud revisa los resultados de las pruebas de laboratorio de una persona para:
 
-### Nesterov accelerated gradient (NAG)
-[source](https://ruder.io/optimizing-gradient-descent/index.html#nesterovacceleratedgradient)
+<ol>
+<li>Determinar cuánto ha avanzado la infección por el VIH de esa persona (lo cual se llama evolución de la infección por el VIH).</li>
+<li>Decidir qué medicamentos contra la infección por el VIH se deben recomendar.</li>
+<li>Se realizan los siguientes análisis de laboratorio para tomar decisiones sobre el tratamiento de la infección por el VIH:</li>
+</ol>
+  
+### Recuento de linfocitos CD4
 
-<p>However, a ball that rolls down a hill, blindly following the slope, is highly unsatisfactory. We'd like to have a smarter ball, a ball that has a notion of where it is going so that it knows to slow down before the hill slopes up again.</p>
-<p>Nesterov accelerated gradient (NAG) is a way to give our momentum term this kind of prescience. We know that we will use our momentum term \(\beta_1 v_{t-1}\) to move the weights and biases \(\theta\). Computing \( \theta - \beta_1 v_{t-1} \) thus gives us an approximation of the next position of the weights and biases (the gradient is missing for the full update), a rough idea where our weights and biases are going to be. We can now effectively look ahead by calculating the gradient not w.r.t. to our current weights and biases \(\theta\) but w.r.t. the approximate future position of our weights and biases:</p>
-<p style="text-align:center">\(<br>
-\begin{align}<br>
-\begin{split}<br>
-v_t &amp;= \beta_1 v_{t-1} + \eta \nabla_\theta J( \theta - \beta_1 v_{t-1} ) \\<br>
-\theta &amp;= \theta - v_t<br>
-\end{split}<br>
-\end{align}<br>
-\)</p>
-<p>Again, we set the momentum term \(\beta_1\) to a value of around 0.9. While Momentum first computes the current gradient and then takes a big jump in the direction of the updated accumulated gradient, NAG first makes a big jump in the direction of the previous accumulated gradient, measures the gradient and then makes a correction, which results in the complete NAG update. This anticipatory update prevents us from going too fast and results in increased responsiveness, which has significantly increased the performance of Neural Networks on a number of tasks.</p>
-<p>Now that we are able to adapt our updates to the slope of our error function and speed up SGD in turn, we would also like to adapt our updates to each individual weight and bias to perform larger or smaller updates depending on their importance.</p>
-[view on github](https://github.com/amaynez/TicTacToe/blob/b429e5637fe5f61e997f04c01422ad0342565640/entities/Neural_Network.py#L219)
+Un recuento de linfocitos CD4 mide la cantidad de linfocitos CD4 en una muestra de sangre. Los linfocitos CD4 son células del sistema inmunitario que combaten la infección. El VIH destruye los linfocitos CD4 y perjudica así el sistema inmunitario. A medida que avanza la infección por el VIH, baja el recuento de linfocitos CD4 de la persona, lo cual indica un mayor daño al sistema inmunitario. El tratamiento con los medicamentos contra el VIH previene que el virus destruya los linfocitos CD4.
 
-```python
-v_prev = {"dW" + str(i): self.v["dW" + str(i)],
-          "db" + str(i): self.v["db" + str(i)]}
+### Carga viral
 
-self.v["dW" + str(i)] =
-            (c.NAG_COEFF * self.v["dW" + str(i)]
-           - eta * np.array(self.gradients[i]))
-self.v["db" + str(i)] =
-            (c.NAG_COEFF * self.v["db" + str(i)]
-           - eta * np.array(self.bias_gradients[i]))
+Una prueba de la carga viral mide la concentración del virus en la sangre (carga viral). A medida que la infección por el VIH se convierte en SIDA, aumenta la carga viral de la persona. Los medicamentos empleados para combatirla evitan la multiplicación del virus, lo cual reduce la carga viral de la persona. Una meta del tratamiento del VIH es mantener la carga viral de la persona tan reducida que el virus no se pueda detectar mediante una prueba de la carga viral. Esto se conoce como carga viral indetectable.
 
-weight_col += ((-1 * c.BETA1 * v_prev["dW" + str(i)])
-               + (1 + c.BETA1) * self.v["dW" + str(i)])
-self.bias[i] += ((-1 * c.BETA1 * v_prev["db" + str(i)])
-               + (1 + c.BETA1) * self.v["db" + str(i)])
-```
+Una vez iniciado el tratamiento de la infección por el VIH, se emplean el recuento de linfocitos CD4 y la carga viral para determinar si los medicamentos empleados para combatirla realmente controlan la infección de la persona.
 
-### RMSprop
-[source](https://ruder.io/optimizing-gradient-descent/index.html#rmsprop)
+### Prueba de resistencia al medicamento (farmacorresistencia)
 
-<p>RMSprop is an unpublished, adaptive learning rate method proposed by Geoff Hinton in <a href="http://www.cs.toronto.edu/~tijmen/csc321/slides/lecture_slides_lec6.pdf">Lecture 6e of his Coursera Class</a>.</p>
-<p>RMSprop was developed stemming from the need to resolve other method's radically diminishing learning rates.</p>
-<p style="text-align:center">\(<br>
-\begin{align}<br>
-\begin{split}<br>
-E[\theta^2]_t &amp;= \beta_1 E[\theta^2]_{t-1} + (1-\beta_1) \theta^2_t \\<br>
-\theta_{t+1} &amp;= \theta_{t} - \dfrac{\eta}{\sqrt{E[\theta^2]_t + \epsilon}} \theta_{t}<br>
-\end{split}<br>
-\end{align}<br>
-\)</p>
-<p>RMSprop divides the learning rate by an exponentially decaying average of squared gradients. Hinton suggests \(\beta_1\) to be set to 0.9, while a good default value for the learning rate \(\eta\) is 0.001.</p>
-[view on github](https://github.com/amaynez/TicTacToe/blob/b429e5637fe5f61e997f04c01422ad0342565640/entities/Neural_Network.py#L232)
+Los proveedores de atención de salud tienen en cuenta muchos factores, incluso los resultados de la prueba de farmacorresistencia de una persona, cuando recomiendan medicamentos contra la infección por el VIH. La prueba de resistencia al medicamento identifica cuáles medicamentos contra el VIH, si los hay, no serán eficaces contra la cepa del VIH de una persona.
 
-```python
-self.s["dW" + str(i)] = ((c.BETA1
-                      * self.s["dW" + str(i)])
-                      + ((1-c.BETA1)
-                      * (np.square(np.array(self.gradients[i])))
-                        ))
-self.s["db" + str(i)] = ((c.BETA1
-                      * self.s["db" + str(i)])
-                      + ((1-c.BETA1)
-                      * (np.square(np.array(self.bias_gradients[i])))
-                        ))
+La infográfica de HIVinfo titulada ¿Qué significan mis resultados de laboratorio? ofrece más información sobre las pruebas empleadas para vigilar la infección por el VIH y el tratamiento para combatirla.
 
-weight_col -= (eta * (np.array(self.gradients[i])
-              / (np.sqrt(self.s["dW"+str(i)]+c.EPSILON)))
-              )
-self.bias[i] -= (eta * (np.array(self.bias_gradients[i])
-               / (np.sqrt(self.s["db"+str(i)]+c.EPSILON)))
-                )
-```
+### Después de obtener resultados positivos en la prueba de detección del VIH, ¿qué tan pronto comienzan las personas a tomar medicamentos para combatir la infección?
 
-### Complete code
-All in all the code ended up like this:
-[view on github](https://github.com/amaynez/TicTacToe/blob/b429e5637fe5f61e997f04c01422ad0342565640/entities/Neural_Network.py#L1)
+Las personas seropositivas deben comenzar a tomar medicamentos contra el VIH lo más pronto posible después de que se les diagnostique la infección. Sin embargo, antes de comenzar el tratamiento, deben estar preparadas para tomar esos medicamentos a diario por el resto de su vida.
 
-```python
-@staticmethod
-def cyclic_learning_rate(learning_rate, epoch):
-    max_lr = learning_rate * c.MAX_LR_FACTOR
-    cycle = np.floor(1 + (epoch / (2
-                    * c.LR_STEP_SIZE))
-                    )
-    x = np.abs((epoch / c.LR_STEP_SIZE)
-        - (2 * cycle) + 1)
-    return learning_rate
-        + (max_lr - learning_rate)
-        * np.maximum(0, (1 - x))
+Algunas situaciones, como la falta de seguro médico o la imposibilidad de pagar los medicamentos contra el VIH, pueden crear dificultades para que las personas los tomen constantemente. Los proveedores de atención de salud pueden recomendar recursos para ayudar a las personas a lidiar con cualquier problema antes de comenzar a tomar los medicamentos contra el VIH.
 
-def apply_gradients(self, epoch):
-    true_epoch = epoch - c.BATCH_SIZE
-    eta = self.learning_rate
-            * (1 / (1 + c.DECAY_RATE * true_epoch))
+### Durante la primera consulta de una persona con un proveedor de atención de salud, ¿hay tiempo para hacer preguntas?
 
-    if c.CLR_ON:
-        eta = self.cyclic_learning_rate(eta, true_epoch)
+Sí, una consulta inicial con un proveedor de atención de salud es un buen momento para hacer preguntas. Las siguientes son algunas preguntas que suelen hacer las personas con un nuevo diagnóstico de la infección por el VIH:
 
-    for i, weight_col in enumerate(self.weights):
-
-        if c.OPTIMIZATION == 'vanilla':
-            weight_col -= eta
-                        * np.array(self.gradients[i])
-                        / c.BATCH_SIZE
-            self.bias[i] -= eta
-                        * np.array(self.bias_gradients[i])
-                        / c.BATCH_SIZE
-
-        elif c.OPTIMIZATION == 'SGD_momentum':
-            self.v["dW"+str(i)] = ((c.BETA1
-                                   *self.v["dW" + str(i)])
-                                   +(eta
-                                   *np.array(self.gradients[i])
-                                   ))
-            self.v["db"+str(i)] = ((c.BETA1
-                                   *self.v["db" + str(i)])
-                                   +(eta
-                                   *np.array(self.bias_gradients[i])
-                                   ))
-
-            weight_col -= self.v["dW" + str(i)]
-            self.bias[i] -= self.v["db" + str(i)]
-
-        elif c.OPTIMIZATION == 'NAG':
-            v_prev = {"dW" + str(i): self.v["dW" + str(i)],
-                      "db" + str(i): self.v["db" + str(i)]}
-
-            self.v["dW" + str(i)] =
-                        (c.NAG_COEFF * self.v["dW" + str(i)]
-                       - eta * np.array(self.gradients[i]))
-            self.v["db" + str(i)] =
-                        (c.NAG_COEFF * self.v["db" + str(i)]
-                       - eta * np.array(self.bias_gradients[i]))
-
-            weight_col += ((-1 * c.BETA1 * v_prev["dW" + str(i)])
-                           + (1 + c.BETA1) * self.v["dW" + str(i)])
-            self.bias[i] += ((-1 * c.BETA1 * v_prev["db" + str(i)])
-                           + (1 + c.BETA1) * self.v["db" + str(i)])
-
-        elif c.OPTIMIZATION == 'RMSProp':
-            self.s["dW" + str(i)] =
-                            ((c.BETA1
-                            *self.s["dW" + str(i)])
-                            +((1-c.BETA1)
-                            *(np.square(np.array(self.gradients[i])))
-                            ))
-            self.s["db" + str(i)] =
-                            ((c.BETA1
-                            *self.s["db" + str(i)])
-                            +((1-c.BETA1)
-                            *(np.square(np.array(self.bias_gradients[i])))
-                            ))
-
-            weight_col -= (eta
-                          *(np.array(self.gradients[i])
-                          /(np.sqrt(self.s["dW"+str(i)]+c.EPSILON)))
-                          )
-            self.bias[i] -= (eta
-                          *(np.array(self.bias_gradients[i])
-                          /(np.sqrt(self.s["db"+str(i)]+c.EPSILON)))
-                            )
-
-        if c.OPTIMIZATION == "ADAM":
-            # decaying averages of past gradients
-            self.v["dW" + str(i)] = ((
-                                c.BETA1
-                              * self.v["dW" + str(i)])
-                              + ((1 - c.BETA1)
-                              * np.array(self.gradients[i])
-                                    ))
-            self.v["db" + str(i)] = ((
-                                c.BETA1
-                              * self.v["db" + str(i)])
-                              + ((1 - c.BETA1)
-                              * np.array(self.bias_gradients[i])
-                                    ))
-
-            # decaying averages of past squared gradients
-            self.s["dW" + str(i)] = ((c.BETA2
-                                    * self.s["dW"+str(i)])
-                                    + ((1 - c.BETA2)
-                                    * (np.square(
-                                            np.array(
-                                                self.gradients[i])))
-                                     ))
-            self.s["db" + str(i)] = ((c.BETA2
-                                    * self.s["db" + str(i)])
-                                    + ((1 - c.BETA2)
-                                    * (np.square(
-                                            np.array(
-                                                self.bias_gradients[i])))
-                                     ))
-
-            if c.ADAM_BIAS_Correction:
-                # bias-corrected first and second moment estimates
-                self.v["dW" + str(i)] =
-                                self.v["dW" + str(i)]
-                              / (1 - (c.BETA1 ** true_epoch))
-                self.v["db" + str(i)] =
-                                self.v["db" + str(i)]
-                              / (1 - (c.BETA1 ** true_epoch))
-                self.s["dW" + str(i)] =
-                                self.s["dW" + str(i)]
-                              / (1 - (c.BETA2 ** true_epoch))
-                self.s["db" + str(i)] =
-                                self.s["db" + str(i)]
-                              / (1 - (c.BETA2 ** true_epoch))
-
-            # apply to weights and biases
-            weight_col -= ((eta
-                            * (self.v["dW" + str(i)]
-                            / (np.sqrt(self.s["dW" + str(i)])
-                            + c.EPSILON))))
-            self.bias[i] -= ((eta
-                            * (self.v["db" + str(i)]
-                            / (np.sqrt(self.s["db" + str(i)])
-                            + c.EPSILON))))
-
-    self.gradient_zeros()
-```
-
+<ol>
+<li>Como tengo el VIH, ¿tendré en algún momento el SIDA?</li>
+<li>¿Qué puedo hacer para mantenerme sano y evitar el contagio de otras infecciones?</li>
+<li>¿Cómo puedo evitar la transmisión del VIH a otras personas?</li>
+<li>¿Cómo afectará el tratamiento del VIH mi estilo de vida?</li>
+<li>¿Cómo debo decirle a mi pareja que tengo el VIH?</li>
+<li>¿Hay alguna razón para contarle a mi empleador y a mis compañeros de trabajo que tengo el VIH?</li>
+<li>¿Hay grupos de apoyo para las personas con el VIH?</li>
+<li>¿Hay recursos disponibles para ayudar a pagar por mis medicamentos contra la infección por el VIH?</li>
+</ol>
