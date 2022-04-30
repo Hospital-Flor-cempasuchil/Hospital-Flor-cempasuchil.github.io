@@ -29,6 +29,12 @@ mathjax: yes
 <label for name="name"> DOMICILIO(chequeo medico):</label><br>
 <input type="text" id="name" name="name" value="Ej: Col. Iztacalco, CDMX, #450"><br>
   
+<label for="lname">Sintomas:</label><br>
+<input type="text" id="lname" name="lname" value="describe tus sintomas"><br>
+  
+<label for="lname">¿A que eres alergico?:</label><br>
+<input type="text" id="lname" name="lname" value="Ej: medicamento, farmacos"><br>
+  
 <label for="birthday">Fecha:</label>
 <input type="date" id="date" name="date">
   
