@@ -1,10 +1,10 @@
 ---
 layout: post
-read_time: true
-show_date: true
+read_time: false
+show_date: false
 title: "Diagnosticos medicos"
 img: posts/20210324/starting_adventure.jpg
-author: Armando Maynez
+author: Rodrigo Davila
 description: "Midlife career change: a disaster or an opportunity?"
 ---
 ### Principales de diagnóstico médico
